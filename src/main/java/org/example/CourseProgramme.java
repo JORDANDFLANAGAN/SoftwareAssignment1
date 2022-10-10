@@ -33,4 +33,8 @@ public class CourseProgramme {
     public List<Module> getModules() {
         return modules;
     }
+
+    public String getCourseName() {
+        return courseName;
+    }
 }

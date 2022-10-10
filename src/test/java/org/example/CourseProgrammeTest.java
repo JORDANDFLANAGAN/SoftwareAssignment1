@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StudentTest {
+class CourseProgrammeTest {
 
     CourseProgramme course1;
     Lecturer lecturer;
@@ -25,18 +25,19 @@ class StudentTest {
 
     @Test
     public void addModule() {
-        student.addModule(module);
-
-        assertEquals(student.getModules().size(), 1);
+        lecturer.addModule(module);
+        assertEquals(lecturer.getModules().get(0).getId(), module.getId());
+        assertEquals(lecturer.getModules().size(), 1);
     }
 
     @Test
-    void getUsername() {
-        assertEquals(student.getUsername(), "jordan21");
+    public void getCourseName() {
+        assertEquals(course1.getCourseName(), "Computer Science");
     }
 
     @Test
-    void getId() {
-        assertEquals(student.getId(), 19989);
+    public void addStudent() {
+        course1.addStudent(student);
+        assertEquals(course1.getStudents().size(), 1);
     }
 }
