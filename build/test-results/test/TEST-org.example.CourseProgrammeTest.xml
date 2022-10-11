@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.CourseProgrammeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-11T13:14:20" hostname="DESKTOP-TUKHSRS" time="0.063">
+  <properties/>
+  <testcase name="getCourseName()" classname="org.example.CourseProgrammeTest" time="0.059"/>
+  <testcase name="addModule()" classname="org.example.CourseProgrammeTest" time="0.001"/>
+  <testcase name="addStudent()" classname="org.example.CourseProgrammeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
